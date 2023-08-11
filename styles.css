@@ -11,6 +11,85 @@ body {
   flex-direction: column;
 }
 
+.header {
+  height: 525px;
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  padding: 25px;
+  margin-bottom: 90px;
+}
+
+a {
+  text-decoration: none;
+  color: #E5E7EB;
+} 
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  width: 1050px;
+  height: 230px;
+}
+
+.hero-title {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-text {
+  color: #E5E7EB;
+  font-size: 18px;
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.hero-button {
+  background-color: #3882F6;
+  border: 1px solid #1F2937;
+  border-radius: 8px;
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 25px;
+}
+
+
+.hero-content{
+  flex: 1;
+}
+
+.hero-image {
+  align-self: stretch;
+  flex: 1;
+  background-color: #6a717a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9FAF8;
+
+}
+
 .section-one {
   text-align: center;
   height: 500px;
@@ -32,7 +111,9 @@ body {
 .one-image {
   border: 4px solid #3882F6;
   height: 160px;
+  width: 160px;
   border-radius: 12px; 
+  margin-bottom: 10px;
 }
 
 .one-text {
@@ -55,7 +136,7 @@ body {
 .section-two-content {
   display: flex;
   flex-direction: column;
-  width: 825px;
+  width: 810px;
 }
 
 .author{
@@ -84,7 +165,7 @@ body {
   background-color: #3882F6;
   border-radius: 8px;
   justify-content: space-between;
-  width: 700px;
+  width: 850px;
   padding: 50px 100px;
 }
 
